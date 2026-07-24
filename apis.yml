@@ -1,8 +1,27 @@
 aid: beyondhq
 name: BeyondHQ
-description: BeyondHQ is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BeyondHQ is a distributed workforce planning platform that combines talent,
+  cost, and location data to enable cross-functional decision making for hybrid and
+  distributed teams. It equips HR, Real Estate, and Finance teams with a single, integrated
+  experience that centralizes hiring and location-planning processes, providing real-time
+  interactive comparisons across 500+ markets, 70,000+ searchable job skills, 750+
+  searchable occupations, and 50,000+ market-data combinations. The platform helps
+  companies determine where to hire and physically locate their workforce using trusted,
+  real-time data. BeyondHQ is a portfolio company of Bloomberg Beta. BeyondHQ does
+  not currently publish a public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/beyondhq/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://beyondhq.co/wp-content/uploads/2021/07/bhq-social-featured.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Workforce Planning
+- Distributed Work
+- Hybrid Work
+- Real Estate
+- HR Tech
+- Location Intelligence
+- Talent Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.beyondhq.co/
+- type: Blog
+  url: https://beyondhq.co/gobeyond/
+- type: Login
+  url: https://beyondhq.co/insights-sub/index/
+- type: TermsOfService
+  url: https://beyondhq.co/terms-conditions/
+- type: PrivacyPolicy
+  url: https://beyondhq.co/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/beyondhq/
+- type: Twitter
+  url: https://twitter.com/gobeyondhq
+- type: YouTube
+  url: https://www.youtube.com/channel/UCQiceMEMy9IXezDLfznAbVQ
+- type: DomainSecurity
+  url: security/beyondhq-domain-security.yml
+- type: LLMsTxt
+  url: llms/beyondhq-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
